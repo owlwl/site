@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1400">
+  <title>PUNNY WORLD</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="wrap_wrap">
+  <div id="header_wrap">
+
+    <div class="header">
+      <ul class="top_link">
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#">주문조회</a></li>
+        <li><a href="#">마이페이지</a></li>
+      </ul>
+    </div>
+    </div>
+
+    <div id="logo_wrap">
+      <div class="logo"><a href="./main_index.html">
+          <img class="logo_image" src="./img/logo.png.png" alt="" data-aos="zoom-in"></a>
+        <div class="search_wrap" data-aos="zoom-in">
+          <input type="search" placeholder="search">
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div id="gnb_wrap">
+      <div class="gnb_inner">
+        <ul class="gnb">
+          <li><a href="./sub_brand_index.html">브랜드</a></li>
+          <li><a href="./sub_dog_index.html">강아지</a></li>
+          <li><a href="./sub_cat_idex.html">고양이</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper" data-aos="zoom-in">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./img/banner3.png" alt="banner"></div>
+        <div class="swiper-slide"><img src="./img/banner4.png" alt="banner"></div>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+
+
+
+    <div id="pet_icon" data-aos="zoom-in">
+
+
+
+
+      <div id="dog">
+        <ul class="dog_wrap">
+          <li>
+            <div class="img_box">
+              <img src="./img/dog.png" alt="">
+            </div>
+            <div class="cover">
+
+              <p class="d_p">강아지</p>
+              <div class="all">
+                <p><a href="./sub_dog_index.html">전체상품보기</a></p>
+              </div>
+
+            </div>
+          </li>
+        </ul>
+
+
+      </div>
+
+
+
+
+
+
+      <div id="dog">
+        <ul class="dog_wrap">
+          <li>
+            <div class="img_box">
+              <img src="./img/cat.png" alt="">
+            </div>
+            <div class="cover">
+              <p class="d_p">고양이</p>
+              <div class="all">
+                <p><a href="./sub_cat_idex.html">전체상품보기</a></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+    <div id="pet_icon2" data-aos="fade-down">
+
+      <ul class="pet_ul1">
+        <li><a href="#"><img src="./img/petfood.png" alt="#"></a>
+          <p>사료</p>
+        </li>
+
+        <li><a href="#"><img src="./img/snack.png" alt=""></a>
+          <p>간식</p>
+        </li>
+
+        <li><a href="#"><img src="./img/dog_toy.png" alt=""></a>
+          <p>장난감</p>
+        </li>
+
+
+      </ul>
+
+
+      <ul class="pet_ul2">
+        <li><a href="#"><img src="./img/petfood.png" alt="#"></a>
+          <p>사료</p>
+        </li>
+
+        <li><a href="#"><img src="./img/snack.png" alt=""></a>
+          <p>간식</p>
+        </li>
+
+        <li><a href="#"><img src="./img/cat_toy.png" alt=""></a>
+          <p>장난감</p>
+        </li>
+
+
+      </ul>
+
+
+
+
+
+
+
+    </div>
+
+
+    <!-- 탭 -->
+    <div id="tab_wrap" data-aos="zoom-in">
+      <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'all')">최신상품</button>
+        <button class="tablinks" onclick="openTab(event, 'dogs')">탑순위</button>
+        <button class="tablinks" onclick="openTab(event, 'cats')">최다판매</button>
+      </div>
+      <!-- 탭 내용  -->
+
+      <div id="all" class="tabcontent" data-aos="zoom-in">
+        <div class="image-grid">
+          <div class="image-item">
+            <img src="./img/mockup1.jpg" alt="상품1">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/mockup2.jpg" alt="상품1">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/mockup3.jpg" alt="상품1">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/mockup4.jpg" alt="상품1">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/mockup5.jpg" alt="상품1">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/mockup6.jpg" alt="상품2">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/mockup1.jpg" alt="상품3">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/mockup3.jpg" alt="상품4">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="dogs" class="tabcontent" style="display:none;">
+        <div class="image-grid">
+          <div class="image-item">
+            <img src="./img/list_img.jpg" alt="상품1">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/list_img.jpg" alt="상품2">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/list_img.jpg" alt="상품3">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/list_img.jpg" alt="상품4">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="cats" class="tabcontent" style="display:none;">
+        <div class="image-grid">
+          <div class="image-item">
+            <img src="./img/list_img.jpg" alt="상품1">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/list_img.jpg" alt="상품2">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/list_img.jpg" alt="상품3">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+          <div class="image-item">
+            <img src="./img/list_img.jpg" alt="상품4">
+            <div class="overlay">
+              <img src="./img/hover_cart.png" alt="장바구니" class="icon cart">
+              <img src="./img/hover_heart.png" alt="하트" class="icon heart">
+              <p>사료
+                <br>19,800원
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more">
+        <p><a href="">모든제품보기</a></p>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div id="tip_wrap">
+      <div id="tip">
+        <h1>반려인을 위한 팁</h1>
+
+        <div class="tip_box">
+          <ul>
+            <li data-aos="fade-up-right"><a href="#"><img src="./img/tip1.png" alt=""></a>
+              <p>반려견에게 애정을 전하는
+                <br>5가지 방법
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li data-aos="fade-up" data-aos-duration="2000"><a href="#"><img src="./img/tip2.png" alt=""></a>
+              <p>반려견 발톱 관리
+                <br> 이렇게 해보세요
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li data-aos="fade-up-left"><a href="#"><img src="./img/tip3.png" alt=""></a>
+              <p>고양이 약먹이기
+                <br>초보집사도 할수있어요
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <div id="footer_img" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+
+      <img src="./img/footer.jpg" alt="">
+
+    </div>
+
+    <div id="footer">
+      <img src="./img/logo2.png" alt="">
+
+      <ul class="f_t">
+        <li><a href="#">회사소개</a>
+          <a href="#">이용약관</a>
+          <a href="#">개인정보</a>
+          <a href="#">취급방침</a>
+          <a href="#">이용안내</a>
+        </li>
+
+        <li><a href="#"><img src="./img/kakao.png" alt=""></a>
+          <a href="#"><img src="./img/insta.png" alt=""></a>
+          <a href="#"><img src="./img/face.png" alt=""></a>
+          <a href="#"><img src="./img/youtube.png" alt=""></a>
+        </li>
+      </ul>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="./js/jquery-3.7.1.min.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- aos1 -->
+  <script>
+    AOS.init();
+  </script>
+  <!-- aos2 -->
+
+
+
+
+
+</body>
+
+</html>

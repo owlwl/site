@@ -1,0 +1,467 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Pretendard-Regular';
+
+    
+
+
+
+}
+
+
+
+
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#wrap_wrap {
+    min-width: 1400px;
+    overflow: hidden;
+}
+#header_wrap {
+    height: 49px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+
+}
+
+
+.header {
+
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.top_link {
+    display: flex;
+
+}
+
+.top_link li a {
+    padding: 15px 30px;
+    display: block;
+    transition: all 0.5s;
+
+}
+
+.top_link li a:hover {
+   
+    transition: all 0.5s;
+    transform: scale(1.1);
+    
+}
+
+#logo_wrap {
+    height: 208px;
+    border-bottom: 1px solid gray;
+
+}
+
+.logo {
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo_image {
+    margin-top: 20px;
+    margin-left: 513px;
+
+}
+
+.search_wrap {
+    margin-top: 90px;
+    height: 26px;
+    padding: 6px 20px 5px 50px;
+    border: 1px solid #616161;
+    background: url(../img/search.png) no-repeat left 13px top 1px;
+    border-radius: 20px;
+}
+
+.search_wrap input {
+    border: none;
+}
+
+
+#gnb_wrap {
+    height: 74px;
+    border-bottom: 1px solid gray;
+}
+
+.gnb_inner {
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li a {
+    display: block;
+    padding: 30px 50px;
+    font-size: 23px;
+    transition: all 0.5s;
+}
+
+.gnb li a:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+  
+    
+}
+
+#banner{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#banner img{
+    border-bottom: 1px solid gray;
+}
+
+
+
+#tab_wrap {
+    width: 1320px;
+    margin: 0 auto;
+    
+}
+
+
+.tab {
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 0 0 350px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 100000000px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.tablinks {
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 40px;
+    
+}
+
+.tab button {
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+   border-radius: 100px;
+    background-color: white;
+    font-size: 24px;
+    transition: all 0.5;
+    width: 200px;
+}
+
+.tab button:hover {
+    transition: all 0.5;
+    background-color:  black;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+.tabcontent ul{
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+
+#tab_wrap2 {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+.tab2 {
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 0 0 350px;
+    box-sizing: border-box;
+    
+    
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+
+.tab2 button {
+    border: 1px solid   black;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s;
+   border-radius: 20px;
+    background-color: white;
+    font-size: 20px;
+    transition: all 0.5;
+    width: 1000px;
+}
+
+.tab2 button:hover {
+    transition: all 0.5;
+    background-color:  black;
+    color: white;
+}
+
+.tabcontent2 {
+    display: none;
+    padding: 20px;
+    margin-top: 50px;
+}
+.tabcontent2 {
+    display: flex;
+    width: 100%;
+   justify-content: center;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+}
+  
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .image-item {
+    position: relative;
+  }
+  
+
+  .image-item img {
+    
+    height: auto;
+    display: block; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease; 
+  }
+  
+
+  .image-item:hover img {
+    transform: scale(1.05); 
+  }
+
+
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(94, 94, 94, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    border-radius: 8px;
+    color: white;
+  }
+  .overlay p{
+
+      display: flex;
+      justify-content: center;  
+  }
+  
+
+  .image-item:hover .overlay {
+    opacity: 1; 
+  }
+  
+
+  .icon {
+    width: 50px;
+    height: 50px; 
+    margin: 0 10px; 
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    object-fit: contain;
+    max-width: 50px;
+    max-height: 50px; 
+    cursor: pointer;
+  }
+  
+  .overlay .icon:hover {
+    opacity: 1; 
+    
+  }
+
+
+  .pagination {
+    display: flex;
+    margin: auto;
+    width: 1320px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .pagination a:hover{ 
+    background-color: gray;
+    transition: all 0.5s;
+    border-radius: 100000000000%;
+ 
+   }
+
+
+  #footer_img {
+
+    width: 1320px;
+
+
+    margin: auto;
+    margin-top: 200px;
+    
+
+
+}
+
+#footer_img img{
+    width: 1320px;
+}
+
+
+#footer {
+    width: 1320px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+
+
+
+
+}
+
+
+#footer img{
+    margin-bottom: 20px;
+}
+
+
+
+
+.footer_ul {
+    display: flex;
+    text-align: center;
+}
+
+
+  
+
+.f_t li{ 
+   padding-bottom: 20px;
+}
+
+.f_t li a{
+    font-size: 22px;
+    margin-right: 20px;
+    transition: all 0.5s;
+    
+    
+    
+}
+
+
+
+
+.f_t li a:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.f_t a img:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.f_t a img{
+    transition: all 0.5s;
+   
+}

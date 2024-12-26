@@ -1,0 +1,734 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Pretendard-Regular';
+
+    
+
+
+
+}
+
+
+
+
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#wrap_wrap {
+    min-width: 1400px;
+    overflow: hidden;
+}
+#header_wrap {
+    height: 49px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+
+}
+
+
+.header {
+
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.top_link {
+    display: flex;
+
+}
+
+.top_link li a {
+    padding: 15px 30px;
+    display: block;
+    transition: all 0.5s;
+
+}
+
+.top_link li a:hover {
+   
+    transition: all 0.5s;
+    transform: scale(1.1);
+    
+}
+
+#logo_wrap {
+    height: 208px;
+    border-bottom: 1px solid gray;
+
+}
+
+.logo {
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo_image {
+    margin-top: 20px;
+    margin-left: 513px;
+
+}
+
+.search_wrap {
+    margin-top: 90px;
+    height: 26px;
+    padding: 6px 20px 5px 50px;
+    border: 1px solid #616161;
+    background: url(../img/search.png) no-repeat left 13px top 1px;
+    border-radius: 20px;
+}
+
+.search_wrap input {
+    border: none;
+}
+
+
+#gnb_wrap {
+    height: 74px;
+    border-bottom: 1px solid gray;
+}
+
+.gnb_inner {
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li a {
+    display: block;
+    padding: 30px 50px;
+    font-size: 23px;
+    transition: all 0.5s;
+}
+
+.gnb li a:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+  
+    
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 697px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #020100 !important;
+    
+}
+
+.swiper-pagination-bullet {
+    background: #000000 !important;
+}
+
+#dog {
+    width: 633px;
+    height: 627px;
+    text-align: center;
+
+}
+
+.dog_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.d_p{
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+
+
+.dog_wrap li {
+    position: relative;
+
+}
+
+.img_box img {
+    display: block;
+    border-radius: 1000000px;
+    border: 1px solid gray;
+    justify-content: center;
+}
+
+
+.cover {
+    width: 633px;
+    height: 627px;
+    /* li너비,높이 (부모)를 전부 쓰기위해 */
+    background-color: rgba(100, 99, 99, 0.559);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    color: #fff;
+    box-sizing: border-box;
+    padding-top: 300px;
+    /* 세로축 아래로 이동 */
+    transition: all 1s;
+    opacity: 0;
+    border-radius: 10000px;
+    
+
+        
+}
+
+.dog_wrap li:hover .cover {
+    /* 세로축 호버시 원상복귀 */
+    transition: all 1s;
+    opacity: 1;
+}
+
+.cover p {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+#pet_icon {
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#pet_icon2 {
+    width: 1320px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+     justify-content: space-around;   
+
+}
+
+
+
+
+
+
+.pet_ul1 {
+    display: flex;
+    padding: 80px;
+    margin-left: 20px;
+    font-size: 26px;
+    
+
+}
+.pet_ul1 li a img{
+    transition: all 0.5s;
+}
+.pet_ul1 li a img:hover{
+    transition: all 0.5s;
+    transform:rotate(30deg)
+}
+.pet_ul2 {
+    display: flex;
+    padding: 80px;
+    margin-left: 130px;
+    font-size: 26px;
+
+}
+.pet_ul2 li a img{
+    transition: all 0.5s;
+}
+.pet_ul2 li a img:hover{
+    transition: all 0.5s;
+    transform:rotate(30deg)
+}
+
+.pet_ul1 p{
+    margin-top: 10px;
+    
+}
+.pet_ul2 p{
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#list {
+    width: 1320px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+
+#section {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+/*tab*/
+/* #box1 {
+	position: relative;
+	padding: 20px 0;
+	display: inline-block;
+}
+
+#box1>li {
+	float: left;
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+	margin: 0 40px;
+}
+
+.tap {
+	cursor: pointer;
+	display: inline-block;
+}
+
+.tap:hover {
+	color: #000;
+	border-bottom: 3px solid #000;
+}
+
+.opacity {
+	color: #000;
+	border-bottom: 3px solid #000000;
+}
+
+#box1>li.on>.box1_1 {
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#box1>li>.box1_1 {
+	height: 0;
+	overflow: hidden;
+}
+
+.box1_1 {
+	width: 1320px;
+	text-align: center;
+	
+	margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    
+   
+} */
+
+.more {
+
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    margin-top: 50px;
+
+
+    transition: all 0.5s;
+
+}
+
+.more:hover{
+    transition: all 0.5s;
+     
+    background-color: rgb(0, 0, 0);
+    color: white;  
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+/* 탭 */
+#tab_wrap {
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 200px;
+    overflow: hidden;
+}
+
+
+.tab {
+    width: 100%;
+    position: relative;
+    padding: 20px 0; 
+    overflow: hidden;
+    text-align: center;
+    margin: 0 0 0 350px;
+    box-sizing: border-box;
+}
+
+.tablinks {
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 40px;
+}
+
+.tab button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    background-color: #fff !important;
+    border-bottom:5px solid rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.tab button:hover {
+    border-bottom:5px solid black;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+.tabcontent ul{
+    display: flex;
+    width: 100%;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.f_t li a{
+    padding: 5px;
+    
+}
+
+
+
+
+/* // 탭부분 이미지 호버시 장바구니 하트  */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .image-item {
+    position: relative;
+  }
+  
+
+  .image-item img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease; 
+  }
+  
+
+  .image-item:hover img {
+    transform: scale(1.05); 
+  }
+  
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(94, 94, 94, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    border-radius: 8px;
+    color: white;
+  }
+  .overlay p{
+
+      display: flex;
+      justify-content: center;  
+  }
+  
+
+  .image-item:hover .overlay {
+    opacity: 1; 
+  }
+  
+
+  .icon {
+    width: 50px;
+    height: 50px; 
+    margin: 0 10px; 
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    object-fit: contain;
+    max-width: 50px;
+    max-height: 50px; 
+    cursor: pointer;
+  }
+  
+  .overlay .icon:hover {
+    opacity: 1; 
+  }
+
+
+
+
+
+
+#tip_wrap{
+    background-color: #ffffff;
+    padding-top: 50px;
+    margin-top: 30px;
+    padding-bottom: 200px;
+}
+
+#tip {
+    width: 1320px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+}
+
+#tip h1{
+    color: black;
+    font-size: 40px;
+    
+}
+
+
+
+.tip_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: large;
+}
+
+.tip_box img {
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    transition: all 0.5s;
+
+
+}
+
+.tip_box img:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+
+}
+
+.tip_box p{
+    padding: 30px;
+    line-height: 25px;
+    
+   
+    
+}
+
+
+#footer_img {
+
+    width: 1320px;
+
+
+    margin: auto;
+    
+    
+
+
+}
+
+#footer_img img{
+    width: 1320px;
+}
+
+
+#footer {
+    width: 1320px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+
+
+
+
+}
+
+
+#footer img{
+    margin-bottom: 20px;
+}
+
+
+
+
+.footer_ul {
+    display: flex;
+    text-align: center;
+}
+
+
+  
+
+.f_t li{ 
+   padding-bottom: 20px;
+}
+
+.f_t li a{
+    font-size: 22px;
+    
+    
+    
+    
+}
+
+.f_t li a:hover{
+    transition: all 0.5;
+    transform: scale(1.1);
+}
+
+
+.f_t li a img{
+    transition: all 0.5s;
+}
+
+.f_t li a img:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+
+.tip_box p{
+    font-size: 20px;
+    
+   
+    
+    
+}
+
+
+.all{
+    width: 200px;
+    border-radius: 100px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    transition: all 0.5;
+    
+}
+
+
+.all:hover{
+
+    transition: all 0.5s;
+    color: white;
+    background-color: black;
+    
+}
+
+
